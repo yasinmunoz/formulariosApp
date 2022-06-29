@@ -1,0 +1,18 @@
+TEMPLATE FORMS
+
+1. Importar el Forms Module. En nuestro caso lo vamos a importar en el módulo donde vamos a trabajar con él.
+
+2. añadimos (ngSubmit) y la referencia local del formulario #miFormulario en la etiqueta form
+
+3. añadirmos el método para el submit en el modelo.
+
+
+
+
+
+Notas: Resumen del flujo de información disponible en Angular.
+
+[ propiedad ] -> información va de la vista al modelo.
+{{ expresión }} -> informacion va de la vista al modelo.
+[( ngBind )] -> enlace bidireccional de datos
+( evento ) -> información va de la vista al modelo.
